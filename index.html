@@ -15,75 +15,77 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css?family=Oswald|Sacramento&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    
+
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead mt-4">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead mb-n4 mt-4"></p>
     </header>
-    <div class="container container-fluid">
+    <div class="container container-fluid rounded">
       <!-- Timeblocks go here -->
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">9AM</div>
+        <div class="col-md-1 text-center p-3 rounded time">9AM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="9"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">10AM</div>
+        <div class="col-md-1 text-center p-3 rounded time">10AM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="10"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">11AM</div>
+        <div class="col-md-1 text-center p-3 rounded time">11AM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="11"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">12PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">12PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="12"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">1PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">1PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="13"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">2PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">2PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="14"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">3PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">3PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="15"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">4PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">4PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="16"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">5PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">5PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="17"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 text-right p-3 border border-left-0 border-secondary">6PM</div>
+        <div class="col-md-1 text-center p-3 rounded time">6PM</div>
         <textarea class="col-md-10 text-left text-white hBlock" id="18"></textarea>
-        <div class="col-md-1 btn btn-info rounded fas fa-lock text-white text-center py-4 save"></div>
+        <div class="col-md-1 btn btn-dark rounded fas fa-lock text-white text-center py-4 save"></div>
       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

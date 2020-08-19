@@ -8,19 +8,19 @@ $(document).ready(function(){
         console.log(hour);
     
         if (hour === currentHour) {
-            $(this).addClass("bg-danger");
-            $(this).removeClass("bg-success");
-            $(this).removeClass("bg-secondary");
+            $(this).addClass("present");
+            $(this).removeClass("future");
+            $(this).removeClass("past");
         }
         else if (hour > currentHour) {
-            $(this).addClass("bg-success");
-            $(this).removeClass("bg-danger");
-            $(this).removeClass("bg-secondary");
+            $(this).addClass("future");
+            $(this).removeClass("present");
+            $(this).removeClass("past");
         }
         else {
-            $(this).addClass("bg-secondary");
-            $(this).removeClass("bg-success");
-            $(this).removeClass("bg-danger");
+            $(this).addClass("past");
+            $(this).removeClass("future");
+            $(this).removeClass("present");
         }
     });
     

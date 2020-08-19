@@ -1,0 +1,70 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #34483A;
+}
+
+textarea{
+  background: transparent;
+  border: 1px solid #E4FDE1;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: #E4FDE1;
+  border-radius: 0;
+  border-bottom: 10px dashed #E4FDE1;
+  font-family: 'Sacramento', cursive;
+}
+
+.lead {
+  font-family: 'Oswald', sans-serif;
+  color: #E55934;
+}
+
+#currentDay {
+  font-family: 'Oswald', sans-serif;
+  color: #E4FDE1;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+}
+
+.past {
+  background-color: #85A4A4;
+  color: #E4FDE1;
+}
+
+.present {
+  background-color: #E55934;
+  color: #E4FDE1;
+}
+
+.future {
+  background-color:#297373;
+  color: #E4FDE1;
+}
+
+.time {
+  color: #E55934;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: #E4FDE1;
+  border: 1px solid #E4FDE1;
+}
+
+.save {
+  border: 1px solid #E4FDE1;
+}
