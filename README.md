@@ -1,4 +1,4 @@
-# work-day-scheduler
+# Workday Scheduler
 Homework assignment for week 5 of bootcamp
 
 <img src="./assets/screenshot1.png" alt="screenshot of deployed webpage" />
