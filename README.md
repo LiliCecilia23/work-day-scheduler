@@ -16,7 +16,7 @@ Upon navigating to the page, each hour block is color coded to indicate past, pr
 * HTML5 
 * CSS3 
 * JavaScript 
-* JQuery 
+* jQuery 
 * Bootstrap
 * Moment.js
 * Local Storage
