@@ -1,7 +1,7 @@
 # ⏰ Workday Scheduler
 <img src="./assets/screenshot1.png" alt="screenshot of workday scheduler">
 
-This webpage is a work day scheduler that allows you to input events from 9AM-6PM each day.
+This app is a workday scheduler that allows you to input events from 9AM-6PM each day. It is powered by Moment.js and local storage capabilities. 
 <hr>
 
 ⏰ [GitHub Repo]("https://github.com/LiliCecilia23/work-day-scheduler")
